@@ -30,7 +30,7 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        val imgUrl = "https://t1.daumcdn.net/cfile/tistory/99AADE425EA423D021"
+        val imgUrl = "https://photo.jtbc.joins.com/news/2016/07/20/20160720150515543.jpg"
         Glide.with(mContext).load(imgUrl).into(profileImg)
 
     }
